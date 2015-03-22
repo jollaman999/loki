@@ -29,6 +29,14 @@ struct target {
 
 struct target targets[] = {
 	{
+		.vendor = "KT, LGU, or SKT",
+		.device = "LG Optimus G",
+		.build = "F180K, F180L, or F180S",
+		.check_sigs = 0x88f114e8,
+		.hdr = 0x88f0c624,
+		.lg = 1,
+	},
+	{
 		.vendor = "AT&T",
 		.device = "Samsung Galaxy S4",
 		.build = "JDQ39.I337UCUAMDB or JDQ39.I337UCUAMDL",
